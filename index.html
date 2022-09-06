@@ -4,7 +4,7 @@
     <title>Задание №1</title>
   </head> 
   <body>
-    <h3 id="#TOP">Ссылки</h3>
+    <h2 id="#TOP">Ссылки</h2>
     <main>
       <ol>
         <li><a href="http://yandex.com/">Yandex(http)</a></li> 
@@ -38,8 +38,86 @@
         <li><a href="index.html">Сокращенная ссылка на главную</a></li> <!-- 20 -->
         <li><a href="#middle">Сокращенная ссылка на внутреннюю</a></li> <!-- 21 -->
       </ol>
-
     </main>
+
+    <h2>Форма</h2>
+    <form action="/" method="post">
+      <label>
+        Имя пользователя:
+        <br>
+        <input name="name" placeholder="ФИО">
+      </label>
+      <br>
+      <label>
+        Введите почту:
+        <br>
+        <input name="email" type="email" placeholder="email">
+      </label>
+      <br>
+      <label>
+        Введите дату рождения:
+        <br>
+        <input name="date-birthday" type="date" value="2022-09-07">
+      </label>
+      <br>
+      Выберите пол:
+      <br>
+      <label>
+        <input type="radio" name="man" value="Значение1">
+        Мужчина
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="woman" value="Значение2">
+        Женщина
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="other" value="Значение3">
+        Другое
+      </label>
+      <br>
+      Количество конечностей:
+      <br>
+      <label>
+        <input type="radio" name="less_than_5">
+        Меньше 5
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="less_than_7">
+        Меньше 7
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="don't say">
+        Не хочу говорить
+      </label>
+      <br>
+      <label>
+      Сверхспособности:
+      <br>
+        <select name="Способности" multiple="multiple">
+          <option value="Бессмертие">Бессмертие</option>
+          <option value="Стены">Проходить сквозь стены</option>
+          <option value="Левитация">Левитация</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Биография:
+        <br>
+        <textarea name="Boigraohy">О себе:</textarea>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="check">
+        С контрактом ознакомлен(а)
+      </label>
+      <br>
+      <input type="submit" value="Отправить">
+      <br>
+    </form>
   </body>
 </html>
 
