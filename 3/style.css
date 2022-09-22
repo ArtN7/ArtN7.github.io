@@ -10,7 +10,7 @@
     flex-direction: column;
   }
   .table_center{
-    background-color: rgb(96, 253, 177);
+    background-color: aqua;
     text-align: center;
   }
   header {
@@ -47,7 +47,7 @@
     width: 100%;
   }
   .form{
-    color:rgb(96, 253, 177);
+    color:aqua;
   }
   .main-table {
     border: 1px solid black;
