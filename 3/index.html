@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Задание №3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+    </head> 
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="row d-flex mx-sm-m3 align-items-center">
+                    <div class="col-md-3 col-4">
+                        <img src="image.jpg"  width="100" height="80" alt="Art's site" class="ing-fluid rounded float-start"/>
+                    </div>
+                    <div class="col-md-9 col-8">
+                        <p class="title float-start">Морепродукты</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="navbar navbar-expand-lg d-flex mt-0 pt-0">
+                <div class="container px-0">
+                    <ul class="navigation mb-0 ps-3 pb-2">
+                        <li class="nav-item mt-2"><a href="#">Меню</a></li>
+                        <li class="nav-item mt-2"><a href="#">О сайте</a></li>
+                        <li class="nav-item mt-2"><a href="#">Продукты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container d-flex flex-column">
+            <h2 id="#TOP">Ссылки</h2>
+            <ol id="ls" class="list-group list-group-numbered order-1 order-md1 mt-sm-2 mt-lg-0">
+                <li class="list-group-item"><a href="http://example.com/" title="Example">Example</a></li> <!-- 1 -->
+                <li class="list-group-item"><a href="https://example.com" title="Example">Example(https)</a></li> <!-- 2 -->
+                <li class="list-group-item"><a href="ftp://example.com/text" title="Example">Example(ftp без авторизации)</a></li> <!-- 3 -->
+                <li class="list-group-item"><a href="ftp://human:227@example.com/text" title="Example">Example(ftp с авторизацией)</a></li> <!-- 4 -->
+                <li class="list-group-item"><a href="https://example.com/contacts#telephone" title="Example">Ссылка на фрагмент с другого сайта</a></li> <!-- 5 -->
+                <li class="list-group-item"><a href="#TOP" title="Example">Jump to TOP</a></li>  <!-- 6 -->
+                <li class="list-group-item"><a href="https://example.com/main?about-04=123&nds=546" title="Example">Ссылка с 2 URL</a></li> <!-- 7 -->
+                <li class="list-group-item"> <!-- 8 -->
+                    <ul>
+                        <li><a href="https://example.com" title="About">About</a></li>
+                        <li><a href="https://example.com" title="Support">Support</a></li>
+                    </ul>
+                </li>          
+                <li class="list-group-item"><a>Ссылка без href</a></li> <!-- 9 -->
+                <li class="list-group-item"><a href="example" >Ссылка с пустым href</a></li> <!-- 10 -->
+                <li class="list-group-item"><a href="https://example.com/" rel="no-follow" title="Example">no-follow</a></li> <!-- 11 -->
+                <li class="list-group-item"><a href="https://example.com/" rel="no-index" title="Example">no-index</a></li> <!-- 12 -->
+                <li class="list-group-item"><p>Для поиска информации перейдите в <a href="https://example.com/" title="Example">Браузер</a></p></li> <!-- 13 -->
+                <li class="list-group-item"><a href="http://example.com"> <img src="image.jpg" width="100" alt="Изображение-ссылка"></a></li>  <!-- 14 -->
+                <li class="list-group-item"> <!-- 15 -->
+                    <p><img src="image.jpg"  width="100" height="80" usemap="#map" alt="навигация"></p> 
+                    <p><map name="map">
+                        <area shape="rect" alt="Сведения об образовательной организации" coords="0,0,10,10" href="https://example.com">
+                        <area shape="rect" alt="Образование" coords="90,0,100,10" href="https://example.com">
+                        <area shape="rect" alt="Наука и инновации КубГУ" coords="0,70,10,80" href="https://example.com">
+                        <area shape="rect" alt="Студенческая жизнь" coords="90,70,100,80" href="https://example.com">
+                        <area shape="circle" alt="Факультеты" coords="50,40,10" href="https://example.com">
+                    </map></p>
+                </li>
+                <li class="list-group-item"><a href="./index.html" title="Example">Ссылка на текущий каталог</a></li> <!-- 16 -->
+                <li class="list-group-item"><a href="./about/index.html">Ссылка на каталог about</a></li> <!-- 17 -->
+                <li class="list-group-item"><a href="../support">Ссылка на каталог, где уровень выше текущего</a></li> <!-- 18 -->
+                <li class="list-group-item"><a href="../../support">Ссылка на каталог, где уровень на 2 выше текущего</a></li> <!-- 19 -->
+                <li class="list-group-item"><a href="/">Сокращенная ссылка на главную</a></li> <!-- 20 -->
+                <li class="list-group-item"><a href="/index.html">Сокращенная ссылка на внутреннюю</a></li> <!-- 21 -->
+
+                <br>
+                <h2>Форма</h2>
+                <form  method="post" action="/">
+                    <label>
+                        Имя пользователя:
+                        <br>
+                        <input name="name" placeholder="ФИО">
+                    </label>
+                    <br>
+                    <label>
+                        Введите почту:
+                        <br>
+                        <input name="email" type="email" placeholder="email">
+                    </label>
+                    <br>
+                    <label>
+                        Введите дату рождения:
+                        <br>
+                        <input name="date-birthday" type="date" value="2022-09-07">
+                    </label>
+                    <br>
+                        Выберите пол:
+                    <br>
+                    <label>
+                        <input type="radio" name="pol" value="man">
+                        Мужчина
+                    </label>
+                    <br>
+                    <label><input type="radio" name="pol" value="woman">
+                        Женщина
+                    </label>
+                    <br>
+                        Количество конечностей:
+                    <br>
+                    <label>
+                        <input type="radio" value="less_than_5" name="count">
+                        Меньше 5
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" value="less_than_7" name="count">
+                        Меньше 7
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" value="don't say" name="count">
+                        Не хочу говорить
+                    </label>
+                    <br>
+                    <label>
+                        Сверхспособности:
+                    <br>
+                        <select name="Способности" multiple="multiple">
+                            <option value="Бессмертие">Бессмертие</option>
+                            <option value="Стены">Проходить сквозь стены</option>
+                            <option value="Левитация">Левитация</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label>
+                        Биография:
+                        <br>
+                        <textarea name="Boigraohy">О себе:</textarea>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="check">
+                        С контрактом ознакомлен(а)
+                    </label>
+                    <br>
+                        <input type="submit" value="Отправить">
+                    <br>
+                </form>
+                <br>
+                <table class="main-table">
+                    <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Морепродукты</td>
+                    </tr>
+                    <tr>
+                        <td>Креветки</td>
+                        <td>Раки</td>
+                        <td>Осьминоги</td>
+                    </tr>
+                    <tr>
+                        <td>Кальмары</td>
+                        <td>Мидии</td>
+                        <td>Устрицы</td>
+                    </tr>
+                    <tr>
+                        <td>Форель</td>
+                        <td>Осётр</td>
+                        <td>Крабы</td>
+                    </tr>
+                </table>
+                <br>
+            </ol>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer"><p>Owner Nam Artem</p></div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+ 
+
+
