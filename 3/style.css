@@ -9,6 +9,10 @@
     display: flex;
     flex-direction: column;
   }
+  .table_center{
+    background-color: rgb(96, 253, 177);
+    text-align: center;
+  }
   header {
     width: 100%;
     background-color:aqua;
@@ -42,6 +46,9 @@
     align-content: flex-start;
     width: 100%;
   }
+  .form{
+    color:rgb(96, 253, 177);
+  }
   .main-table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -51,7 +58,7 @@
     text-align: center;
   }
   .main-table tr:nth-child(2n) {
-    background-color: #3ed056;
+    background-color:aqua;
   }
   .content {
     width: 100%;
@@ -64,7 +71,7 @@
   }
   footer {
     width: 100%;
-    background-color:aqua;
+    background-color:blanchedalmond;
     height: 30px;
   }
   .footer p {
