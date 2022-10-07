@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5</title>
+    <style>
+      input {
+        margin-top: 5px;
+
+      }
+      body {
+             background: url(Ocean.jpg);  
+             background-size: cover;
+ 
+            }
+    </style>
+  </head>
+  <body>
+    <h2>Расчет общей цены на морепродукты</h2>
+    <div class="app">
+      <form>
+        <h3>При вводе нецелого числа, используйте знак "."</h3>
+        Введите цену на морепродукт:
+        <input type="text" id="price" placeholder="Цена" /><br />
+        <br />
+        Введите вес в кг:
+        <input type="text" id="weight" placeholder="Вес" /><br />
+        <br />
+        <button id="btn-count">Рассчитать стоимость</button> <br />
+        <br />
+      </form>
+      Итоговая стоимость: <input type="text" id="total" disabled >
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
