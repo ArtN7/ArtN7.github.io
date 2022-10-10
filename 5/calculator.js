@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function () {
 function countPrice(event) {
     event.preventDefault();
     const price = document.getElementById("price");
-    const count = document.getElementById("weight");
+    const count = document.getElementById("count");
     const total = document.getElementById("total");
     let result = price.value * count.value;
     if (!Number.isNaN(result)) {
