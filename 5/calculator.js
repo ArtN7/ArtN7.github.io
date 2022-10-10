@@ -8,7 +8,7 @@ function countPrice(event) {
     const count = document.getElementById("count");
     const total = document.getElementById("total");
     let result = price.value * count.value;
-    if (!Number.isNaN(result)) {
+    if (!Number.isNaN(result)&&price.value>0&&count.value>0) {
         total.value = result;
     } else {
         alert("Ошибка при вводе данных!");
