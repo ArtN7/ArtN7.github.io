@@ -5,6 +5,9 @@
   body {
     background-color:aqua;
   }
+  .name{
+    text-align: center;
+  }
   .carousel div img {
     width: 100px;
   }
