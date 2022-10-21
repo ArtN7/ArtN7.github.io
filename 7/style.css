@@ -4,6 +4,7 @@
   }
   .name{
     text-align:  center;
+    text-decoration-color: gold;
   }
   .carousel div img {
     width: 100px;
@@ -21,10 +22,10 @@
   }
  
   .slick-next {
-    right: 55px !important;
+    right: 25px !important;
   }
   .slick-prev {
-    left: 55px !important;
+    left: 25px !important;
   }
   .slick-dots {
     position: relative !important;
