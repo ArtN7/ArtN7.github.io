@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".galary").slick({
+    $(".carousel").slick({
       slidesToShow: 4,
       slidesToScroll: 1,
       dots: true,
