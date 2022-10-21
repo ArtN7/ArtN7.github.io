@@ -21,12 +21,10 @@
   }
  
   .slick-next {
-    color: black;
     right: 25px !important;
   }
   .slick-prev {
     left: 15px !important;
-    color: black;
   }
   .slick-dots {
     position: relative !important;
