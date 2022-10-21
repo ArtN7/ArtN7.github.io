@@ -31,8 +31,8 @@
   }
   @media (min-width: 768px) {
     .carousel div img {
-      width: 225px;
-      height: 175px;
+      width: 200px;
+      height: 150px;
     }
     .slick-prev {
       left: -25px !important;
