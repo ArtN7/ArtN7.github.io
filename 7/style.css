@@ -16,6 +16,9 @@
     padding-right: 50px;
     position: relative;
   }
+  body {
+    background-color:aqua;
+  }
   .slick-next {
     right: 25px !important;
   }
