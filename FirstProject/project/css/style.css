@@ -275,3 +275,139 @@ video {
     display: inline-block;
     vertical-align: baseline;
 }
+
+.competency {
+    margin-bottom: 60px;
+}
+
+.competency-body {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+}
+
+.competency-time {
+    font-size: 32px;
+    margin-top: -20px;
+    color: #050c33;
+    font-weight: bold;
+}
+
+.competency-icon {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.competencies h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #050c33;
+    margin: 0 0 20px;
+}
+.support-main h1,
+.block-main h1 {
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.support-main-description,
+.block-main-description {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 55px;
+}
+
+.support-main-btn,
+.block-main-btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    padding: 22px 20px;
+    margin-top: 40px;
+    width: 220px;
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid #f14d34;
+    border-radius: 5px;
+    transition: background 300ms;
+    margin-bottom: 45px;
+}
+
+.support-main-btn:focus,
+.support-main-btn:hover,
+.support-main-btn:active,
+.block-main-btn:focus,
+.block-main-btn:hover,
+.block-main-btn:active {
+    background: #f14d34;
+    text-decoration: none;
+    color: #fff;
+}
+
+.support-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.support-achievement {
+    margin-bottom: 96px;
+}
+
+.support-achievement-wrapper {
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 80px;
+    height: 100%;
+}
+
+.support-achievement:first-of-type .support-achievement-title {
+    font-size: 48px;
+    margin-top: -22px;
+}
+
+.support-achievement-title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.support-achievement-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, .7);
+}
+
+.competencies {
+    padding: 100px 0;
+    font-family: Montserrat;
+}
+
+.competencies h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #050c33;
+    margin: 0 0 20px;
+}
+
+.competencies-description {
+    margin-bottom: 55px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+}
